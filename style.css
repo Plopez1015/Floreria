@@ -1,0 +1,471 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.home{
+    background-image:url("imagen1.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin-bottom:100px;
+    border-style: solid;
+}
+.caja{
+    margin: 260px 260px 260px 260px;
+}
+.subcaja{
+    padding: 30px 30px 30px 30px;
+}
+.titulo{
+    text-align: center;
+    color: white;
+}
+.presentacion{
+    text-align: center;
+    color: white;
+}
+.general{
+    margin: 24px 10px;
+    text-align: center;
+}
+.boton{
+    background-color: rgba(5, 134, 91, 0.993);
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    padding: 15px 25px;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.conoceme{
+    text-align: center;
+}
+.conoceme2{
+    display:flex;
+}
+.lado-izq{
+    width:50%;
+}
+.imagen2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.lado-der{
+    width:50%;
+    padding: 0;
+}
+.contenido-der{
+    display: flex;
+    overflow: hidden;
+    align-content:center;
+    margin: 60px 60px 60px 60px;
+}
+.contenido-der2{
+    display: flex;
+    overflow: hidden;
+    align-content:center;
+    margin: 20px 60px 60px 60px;
+    margin-bottom: 10px;
+}
+.contenido-absoluto{
+   margin-top: 40px;
+   padding-left :150px;
+   margin-bottom:0;
+   text-align: center;
+}
+.linea2{
+    display: table-cell;
+    padding-right: 25px;
+}
+.linea3{
+    display: table-cell;
+    padding-right: 25px;
+}
+.izquierda{
+    display: block;
+    padding-right: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.medio{
+    display: block;
+    padding-right: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.derecha{
+    display: block;
+    padding-right: 25px;
+    box-sizing: border-box;
+    text-align: center;
+}   
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    max-width: 100%;
+}
+li{
+    display: table-cell;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+.num1{
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color:#037E8C;
+}
+.num2{
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color:#037E8C;
+}
+.num3{
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color:#037E8C;
+}
+.letra1{
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.letra2{
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.letra3{
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+.general2{
+    margin: 24px 10px;
+    text-align: center;
+}
+.boton2{
+    background-color: rgba(5, 134, 91, 0.993);
+    border-radius: 4px 4px 4px 4px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    padding: 10px 18px;
+}
+.section2{
+    background-color: white;
+    padding: 100px;
+    padding-bottom: 100px;
+    display: block;
+    box-sizing:border-box;
+}
+.container2{
+    max-width: 1140px;
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+.container3{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 30px 30px 30px 30px;  
+    float: right;
+}
+.caja1-1{
+    text-align: left;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.caja2-2{
+    flex-wrap: wrap;
+    margin-left :-15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.lineaa{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.lineab{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.lineac{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.linead{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.lineae{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.lineaf{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    
+}
+.borde-caja1{
+    background-color: #ffffff;
+    padding: 40px 30px;
+    display: block;
+    color:#898989;
+    float: left;    
+    overflow: hidden;
+}
+.borde-caja2{
+    background-color: #ffffff;
+    padding: 40px 30px;
+    display: block;
+    color:#898989;
+    float: left;
+    overflow: hidden;
+}
+.borde-caja3{
+    background-color: #ffffff;
+    padding: 40px 30px;   
+    display: block;
+    color:#898989;
+    text-align: left;
+    overflow: hidden;
+}
+.borde-caja4{
+    background-color: #ffffff;
+    padding: 40px 30px;
+    display: block;
+    color:#898989;
+    float: left;
+    overflow: hidden;
+}
+.borde-caja5{
+    background-color: #ffffff;
+    padding: 40px 30px;
+    display: block;
+    color:#898989;
+    float: left;
+    overflow: hidden;
+}
+.borde-caja6{
+    background-color: #ffffff;
+    padding: 40px 30px;
+    display: block;
+    color:#898989;
+    float: left;
+    overflow: hidden;
+}
+.logo1{
+    display: table-cell;
+    vertical-align: top;
+    padding:20px 20px 20px 20px;
+}
+.logo2{
+    display: table-cell;
+    vertical-align: top;
+    padding:20px 20px 20px 20px;
+}
+.logo3{
+    display: table-cell;
+    vertical-align: top;
+    padding:20px 20px 20px 20px;
+}
+.logo4{
+    display: table-cell;
+    vertical-align: top;
+    padding:20px 20px 20px 20px;
+}
+.logo5{
+    display: table-cell;
+    vertical-align: top;
+    padding:20px 20px 20px 20px;
+}
+.logo6{
+    display: table-cell;
+    vertical-align: top;
+    padding:20px 20px 20px 20px;
+}
+.imagen3{
+    border-style: none;
+    float: right;
+}
+.letras1{
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.letras2{
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.letras3{
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.letras4{
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.letras5{
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.letras6{
+    vertical-align: top;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.imagen4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 60px 180px 60px 180px;
+}
+.amistades2{
+    display:flex;
+}
+.lado-11{
+    width:50%;
+    padding: 0;
+}
+.lado-22{
+    width:50%;
+    padding: 80px;
+}
+.container4{
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0;
+    float: right;
+    background-color: #797070;
+    margin-bottom: 0;
+}
+.section4{
+    background-color: white;
+    padding: 0;    
+    display: block;
+    box-sizing:border-box;
+}
+.contenido1-1-1{
+    margin-top: 100px;
+}
+.section5{
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+}
+.container5{
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 600px;
+    background-color: white;
+}
+.vision-mision{
+    display: flex;
+}
+.lado-dibujo{
+    width: 100%;
+    padding: 0;
+}
+.palabras{
+    width: 100%;
+    padding: 0;
+}
+.imagen5{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 120px 120px 120px 120px;
+    text-align: left;
+
+}
+.palabra5{
+    display: flex;
+    overflow: hidden;
+    padding: 120px 120px 120px 120px;
+
+}
+
+@media (max-width:600px){
+    body{
+        background-color:royalblue;
+    }
+}
